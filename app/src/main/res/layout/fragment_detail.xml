@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/black"
+    android:id="@+id/detailFragment">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="331dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/swipe_refresh">
+
+        <com.google.android.exoplayer2.ui.StyledPlayerView
+            android:id="@+id/player_view"
+            android:layout_width="match_parent"
+            android:layout_height="331dp"
+            app:rewind_increment="15000"
+            app:fastforward_increment="15000"
+            app:auto_show="true"
+            app:use_controller="true"/>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <TextView
+        style="@style/Theme.COOSApp2.textView"
+        android:id="@+id/video_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="15dp"
+        android:text="@string/temp"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:focusedByDefault="true"/>
+
+    <Button
+        android:id="@+id/save_video_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/save_video_button"
+        android:layout_margin="2dp"
+        app:icon="@drawable/ic_plus"
+        app:iconTint="?attr/colorPrimaryVariant"
+        android:textColor="?attr/colorPrimaryVariant"
+        android:backgroundTint="?attr/colorSecondary"
+        app:elevation="3dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

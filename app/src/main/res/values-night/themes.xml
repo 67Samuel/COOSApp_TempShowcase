@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.COOSApp2" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#07003b</item>
+        <item name="colorPrimaryVariant">#0c006e</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#10005a</item>
+        <item name="colorSecondaryVariant">#3d005a</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    
+    <style name="Theme.COOSApp2.textView">
+        <item name="android:textColor">?attr/colorOnSecondary</item>
+        <item name="android:background">?attr/colorSecondary</item>
+    </style>
+
+    <style name="Theme.COOSApp2.editTextView">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Theme.COOSApp2.themeIcon">
+        <item name="android:icon">@drawable/ic_light_mode</item>
+    </style>
+</resources>

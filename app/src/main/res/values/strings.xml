@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">COOSApp</string>
+    <string name="app_desc">app description</string>
+    <string name="list_fragment">Home</string>
+
+    <string name="text_error">Error</string>
+    <string name="text_success">Success</string>
+    <string name="text_ok">OK</string>
+    <string name="text_info">Info</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="text_yes">yes</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="light_mode">Light Mode</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="saved_tab_item">Saved</string>
+    <string name="sermons_tab_item">Sermons</string>
+    <string name="save_video_button">Save</string>
+    <string name="filter">Filter and Order</string>
+    <string name="search">Search</string>
+    <string name="filter_options">Filter Options</string>
+    <string name="preacher_or_date">Filter by preacher or date</string>
+    <string name="filter_preacher">Preacher</string>
+    <string name="filter_date">Date</string>
+    <string name="asc_desc">Ascending or descending order</string>
+    <string name="filter_asc">ASC</string>
+    <string name="filter_desc">DESC</string>
+    <string name="button_to_go_back_to_the_full_list_of_videos">Button to go back to the full list of videos</string>
+    <string name="return_to_full_video_list">Return to full video list</string>
+    <string name="temp">temp</string>
+</resources>

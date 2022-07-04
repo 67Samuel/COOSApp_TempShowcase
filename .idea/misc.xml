@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/COOS_App/COOSApp2/app/src/main/res/layout-land/fragment_detail.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/COOS_App/COOSApp2/app/src/main/res/layout/fragment_detail.xml" value="0.14828544949026876" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/COOS_App/COOSApp2/app/src/main/res/layout/fragment_detail2.xml" value="0.16" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/COOS_App/COOSApp2/app/src/main/res/menu/toolbar_menu.xml" value="0.259375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.COOSApp2" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#E86817</item>
+<!--        <item name="colorPrimaryVariant">#002244</item>-->
+        <item name="colorPrimaryVariant">#1C9CD6</item>
+        <item name="colorOnPrimary">#000000</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#002244</item>
+        <item name="colorSecondaryVariant">#2FA4D9</item>
+        <item name="colorOnSecondary">@color/design_default_color_on_secondary</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="SplashTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+
+
+
+    <style name="Theme.COOSApp2.textView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">?attr/colorSecondary</item>
+    </style>
+
+    <style name="Theme.COOSApp2.editTextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">?attr/colorSecondary</item>
+    </style>
+
+    <style name="Theme.COOSApp2.themeIcon">
+        <item name="android:icon">@drawable/ic_dark_mode</item>
+    </style>
+
+</resources>
